@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    background: gray;
+}
+.container{
+    border: 2px solid gray;
+    background: black;
+    color: white;
+    border-radius: 15px;
+}
+.calculetor{
+    background: linear-gradient(gray black);
+    font-size: 49px;
+    padding: 15px;
+}
+
+.buttonfun{
+    padding: 15px;
+   border-radius: 50%;
+   border: none;
+   margin-left: 5px;
+   box-sizing: border-box;
+   box-shadow: 4px 1px 7px 1px gray;
+   background: transparent;
+    color: white;
+    cursor: pointer;
+}
+.button{
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 4px 1px 7px 1px gray;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+.buttoncolor{
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(235, 141, 47);
+    color: white;
+    box-sizing: border-box;
+    margin-left: 15px;
+    /* box-shadow:  1px 0px 5px 2px gray; */
+    cursor: pointer;
+    font-size: 18px;
+    /* background: transparent; */
+    /* color: white; */
+}
+input{
+    background: transparent;
+    padding: 19px 0px 0px 19px;
+    /* font-size: 15px; */
+    
+    border: none;
+}
+
+input[placeholder]{
+    border: none;
+    background: linear-gradient(296deg, gray, transparent);
+    font-size: 19px;
+}
+input[type=text]{
+    /* border-radius: 13px; */
+    color: rgb(196, 193, 193);
+    padding-top: 30px;
+}
